@@ -61,7 +61,7 @@
         text-decoration: none;
         font-size: 18px;
         color: white;
-        .button_plus_hover();
+        .button_plus_hover(center, center);
         .button_layout();
       }
       .btn {
@@ -69,7 +69,6 @@
         justify-content: flex-start;
         width: 100px;
         height: 30px;
-
       }
   }
 
@@ -85,3 +84,34 @@
     }
   }
 }// home
+
+@media @phone{
+      .space-images{
+        justify-content: center;
+        margin: 0 auto;
+      }
+      
+
+      .sky{
+        display:none;
+      }
+      .launch{
+        display:none;
+      }
+      
+      .walk{
+        flex-direction: column-reverse;
+        align-items:center;
+        margin: 0 auto;
+        width: 100%;
+        
+      }
+      .walk-text{
+        width: 100%;
+        margin-top: 11px;
+        padding: 15px;
+      }
+      .btn{
+        width: 100%;
+      }
+  }

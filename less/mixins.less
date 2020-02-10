@@ -7,13 +7,13 @@
     }
 }
 
-.button_layout(){
+.button_layout(@align, @justify){
     display:flex;
     flex:1 1 0;
     width: 100px;
     height: 30px;
-    align-items: center;
+    align-items: @align;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: @justify;
     border-radius: 7%;
 }
