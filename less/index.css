@@ -160,34 +160,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.container_nav {
-  width: 100%;
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column-reverse;
-}
-.container_nav img {
-  max-width: 800px;
-  margin: 0 auto;
-}
-.container_nav h1 {
-  font-size: 30px;
-  padding: 10px;
-}
-.container_nav .nav {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: #F4F4F4;
-}
-.container_nav a {
-  text-decoration: none;
-  padding-right: 5px;
-  padding-left: 5px;
-  font-size: 20px;
-  color: black;
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -239,30 +211,6 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
-}
-.home .walk .walk-text .btn a {
-  text-decoration: none;
-  font-size: 18px;
-  background: black;
-  color: white;
-  display: flex;
-  flex: 1 1 0;
-  width: 100px;
-  height: 30px;
-  align-items: center;
-  margin: 0 auto;
-  justify-content: center;
-  border-radius: 7%;
-}
-.home .walk .walk-text .btn a:hover {
-  background: #22283A;
-  color: yellow;
-}
-.home .walk .walk-text .btn {
-  display: flex;
-  justify-content: flex-start;
-  width: 100px;
-  height: 30px;
 }
 .home .walk .walk-img {
   width: 46%;
