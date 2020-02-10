@@ -1,1 +1,19 @@
-// Mixins Here
+.button_plus_hover(){
+    background: black;
+    color: white;
+    &:hover {
+        background: @btn-bg-color;
+        color: yellow;
+    }
+}
+
+.button_layout(){
+    display:flex;
+    flex:1 1 0;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 7%;
+}
