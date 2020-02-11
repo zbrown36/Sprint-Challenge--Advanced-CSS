@@ -54,21 +54,22 @@
       }
 
       p {
-        margin-bottom: 26px;
+        margin-bottom: 10px;
       }
 
       .btn a {
         text-decoration: none;
         font-size: 18px;
-        color: white;
-        .button_plus_hover(center, center);
-        .button_layout();
+        .button_plus_hover();
+        .button_layout(100px, 30px, center, center);
       }
       .btn {
         display: flex;
         justify-content: flex-start;
+        text-align: center;
         width: 100px;
         height: 30px;
+        .button_layout(100px, 30px, center, center);
       }
   }
 
@@ -87,8 +88,12 @@
 
 @media @phone{
       .space-images{
-        justify-content: center;
-        margin: 0 auto;
+        width: 90%;
+        margin: 20px auto;
+        img{
+          width: 100%;
+          margin: 0 auto;
+        }
       }
       
 
@@ -103,15 +108,23 @@
         flex-direction: column-reverse;
         align-items:center;
         margin: 0 auto;
-        width: 100%;
-        
-      }
-      .walk-text{
-        width: 100%;
-        margin-top: 11px;
-        padding: 15px;
-      }
+        width: 500px;
+        padding: 0;        
+     
+      
+     }
       .btn{
-        width: 100%;
+        .button_layout(100vw, 50px, center, center);
+        .button_plus_hover;
       }
+      footer {
+        width: 100vw;
+      }
+  
+  #last_para{
+    width: 100vw;
+    margin-top: 11px;
+    padding: 0;
+    justify-content: stretch;
   }
+}

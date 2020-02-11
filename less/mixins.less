@@ -1,17 +1,17 @@
 .button_plus_hover(){
-    background: black;
-    color: white;
+    background: rgb(59, 11, 11);
+    color: rgb(255, 255, 255);
     &:hover {
         background: @btn-bg-color;
         color: yellow;
     }
 }
 
-.button_layout(@align, @justify){
+.button_layout(@length, @height, @align, @justify){
     display:flex;
     flex:1 1 0;
-    width: 100px;
-    height: 30px;
+    width: @length;
+    height: @height;
     align-items: @align;
     margin: 0 auto;
     justify-content: @justify;
